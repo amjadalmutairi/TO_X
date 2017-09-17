@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context="me.amjadalmutairi.todo.AboutActivity">
+
+    <TextView
+        android:id="@+id/dev_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/white_rounded_rec"
+        android:padding="@dimen/dp_25"
+        android:text="@string/amjad"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/email_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_email"
+        android:padding="@dimen/dp_5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"/>
+
+    <TextView
+        android:id="@+id/source_code_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dev_view"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/white_rounded_rec"
+        android:padding="@dimen/dp_25"
+        android:text="@string/github"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"  />
+
+    <ImageButton
+        android:id="@+id/github_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/github"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_below="@id/dev_view"/>
+
+    <TextView
+        android:id="@+id/share_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/source_code_view"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/white_rounded_rec"
+        android:padding="@dimen/dp_25"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"  />
+
+    <ImageButton
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share_circle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:padding="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_below="@id/source_code_view"/>
+
+</RelativeLayout>

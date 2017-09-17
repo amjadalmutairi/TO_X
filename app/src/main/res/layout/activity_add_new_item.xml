@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.amjadalmutairi.todo.AddNewItemActivity">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:layout_margin="@dimen/dp_20"
+        android:hint="@string/title"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_30"
+        android:padding="@dimen/dp_5">
+
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_doing"
+            android:tint="@color/close_to_white"
+            android:padding="@dimen/dp_5"
+            android:background="@drawable/purpile_circle"
+            android:layout_margin="@dimen/dp_10"/>
+
+        <ImageButton
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cancel"
+            android:tint="@color/close_to_white"
+            android:padding="@dimen/dp_5"
+            android:background="@drawable/purpile_circle"
+            android:layout_margin="@dimen/dp_10"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_view"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp_5"
+    android:orientation="horizontal"
+    android:padding="@dimen/dp_5"
+    android:layout_marginBottom="@dimen/dp_5">
+
+    <CheckBox
+        android:id="@+id/completed_checkBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/white_rounded_rec"
+        android:buttonTint="@color/white_op"
+        android:padding="@dimen/dp_20"
+        android:textColor="@color/close_to_white"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"
+        tools:text="List item title" />
+</LinearLayout>

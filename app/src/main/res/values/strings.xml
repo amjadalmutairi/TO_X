@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TO X</string>
+    <string name="reading_category_">READ</string>
+    <string name="watching_category_">WATCH</string>
+    <string name="doing_category_">DO</string>
+    <string name="rights"> TO X © All rights reserved.</string>
+    <string name="about">about</string>
+    <string name="share">Share</string>
+    <string name="amjad">By : Amjad Almutairi.</string>
+    <string name="github">The app code is available in Github.</string>
+    <string name="send_email">Send Email</string>
+    <string name="share_message">TO X is a simple categorized todo list . . Give it a try!</string>
+    <string name="delete_item_confirm_q">Are you sure you want to delete this item?</string>
+    <string name="delete_all_items_confirm_q">Are you sure you want to delete all the items?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty_message">Nothing to </string>
+    <string name="title">Item</string>
+    <string name="description">Description</string>
+    <string name="missing_title_error_msg">You must enter the item</string>
+    <string name="cannot_save_item_error_msg">Oops! Something wrong happened.</string>
+</resources>
