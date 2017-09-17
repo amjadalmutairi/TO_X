@@ -46,8 +46,7 @@ public class AboutActivity extends AppCompatActivity {
         githubButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //TODO: link
-                String url = "https://github.com/amjadalmutairi/Almustaghfirin.git";
+                String url = "https://github.com/amjadalmutairi/TO_X.git";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
